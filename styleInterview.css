@@ -1,0 +1,31 @@
+#sidebar
+{
+	height: 100vh;
+	color: white;
+	width:200px;
+	border: 1px;
+	border-color: black;
+	border-style: solid;
+}
+
+#sidebar:before
+{
+  position: absolute;
+  z-index:-1;
+  top:0;
+  left:0;
+  width:90%;
+  height:130px;
+  content:"";
+  background-color:#D4E157;
+}
+
+#logo
+{
+	padding: 15%;
+}
+
+.button
+{
+	padding-top: 50px;
+}
